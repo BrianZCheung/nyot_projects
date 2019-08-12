@@ -1,0 +1,242 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Playfair Display', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+a{
+	text-decoration:none;
+	transition:all 500ms ease-in-out;
+}
+
+a:hover,
+a:active{
+	text-decoration:none;
+}
+
+h1,
+h2,
+h4{
+	font-family: 'Playfair Display SC', serif;;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+p{
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn{
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover{
+	background-color:#ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+
+/*navifation*/
+
+.navbar{
+	background-color: #A2C4C9 !important;
+	font-family: 'Playfair Display S', serif;;
+	font-weight: 700;
+	font-size: 23px;
+}
+
+
+.navbar label{
+	font-size:24px;
+}
+
+
+.navbar a{
+	color:#000000 !important;
+	opacity:0.7;
+	font-size:20px;
+}
+
+.navbar a:hover{
+	opacity:1;
+	background-color: #A2C4C9 !important;
+}
+
+.client h2{
+	color:blue;
+}
+
+/*product*/
+
+.product{
+	height: 600px;
+	width:100%;
+	padding: 30px 0 30px;
+	padding-top:40px;
+	margin-top:50px;
+	background: white;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	color: black;
+}
+
+.product img{
+	padding-top: 70px;
+}
+
+.product strong{
+	font-size:16px;
+}
+
+.product li{
+	font-size:14px;
+}
+
+.product button{
+	color:#3f6798;
+	background-color:#EBEBEB;
+}
+
+@media(max-width:768px){
+
+.header{
+	padding: 30px;
+	height: 750px;
+
+}
+}
+
+/*Credit card information*/
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: white;
+  padding: 0px;
+  border: 2px solid #fff; 
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  display:inline-block;
+}
+.box img {
+	
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:2;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+	
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.popup .input-group{
+	display: inline-block;
+  	float: left;
+}
+.popup label{
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+.popup button{
+	margin-top:30px;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+/*footer*/
+
+.footer{
+	padding:30px;
+	color: #cccccc;
+	background-color: #222222;
+}
+
+.footer .social{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px;
+	margin-bottom: 10px;
+	margin-right:5px;
+}
+
+.footer input {
+	height: 40px;
+	width:160px;
+	padding:5px;
+	border: none;
+	background-color: #cccccc;
+	color: #000;
+}
+
+.footer .btn {
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}

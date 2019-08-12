@@ -1,0 +1,36 @@
+*{
+    margin-top: 0%;
+    margin-bottom:0%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+#header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#subHeader{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table, tr{
+    border: 2px solid green;
+    width: 100%;
+    text-align: left;
+}
+
+tr{
+	background: #b8d1f3;
+}
+
+tr:hover {
+    background-color: #ffff99;
+}
+
+th, td {
+    border: 2px solid orange;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
